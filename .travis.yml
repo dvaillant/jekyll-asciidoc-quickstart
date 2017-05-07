@@ -1,5 +1,8 @@
 language: ruby
 rvm:
-  - 2.2.0
+- 2.2.0
 sudo: false
 script: bundle exec rake deploy
+env:
+  global:
+    secure: l6m0dAdMOAFTQA/ur5wQRYFRIt+fjAKGylKz4poy+XRMlApVdurkswRZxFVBMH7CLrLXivdiwxBqb6sWZR84uJ2zrbeBO3j3a4PHvmforKRPLbZ/L887yehjS+tUUWelc9EEY7L5ORKKI+bUC+e4hqVXRqrt8R4jnhAudgRM09Y4lK+TKONEQjczmi8iniP/sYnhA3LZGT9KhuOS/RgOfVIZXmpzmeHwkGFosVncHahfhnVrk+tEUTV9LScK6dlX6mO7EQir2ZAZwQApXlznQnIsx/SQSlkozd9fUnj+2W48QVInAPxVmjLORarSVok0T51orwL+psW7zmhkrFFO1qnz+snA9y0xKU5U3RP6GRKSUJN5nHfyyYPk5fp44b4hOk1qf4xuPXQofsI/pR1x5GYUmp1G+9mubDonIFhjRfno2vba/oow/Jws+PFspcvbUQ4GR2oha19W+1i8mEwz5DeuIxtTJyLIqeaH3a98xQhBMjToySGGQ9yuhizFJjkI9BqL+KxARKMSyJ79FaJJZPsLvrgDrbhNXn9lV4gtHTIomh79X44i7BU9eAIy+JQBC/cN6DuwMqqC7fa42kaKi/nhsC3dO+PdQ6z4Tfw9I9krKb70Vl3O/ynp5B0D/0y9aoSoUyvubLseYuFGfvWZwqGOuUolWbU3qOYS3bHYFEM=
